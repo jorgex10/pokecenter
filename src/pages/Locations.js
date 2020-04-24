@@ -33,9 +33,11 @@ const Building = () => {
       <CardColumns>
         {
           locations.map((location) => (
-            <div>
-              <LocationCard name={location.name} url={location.url} />
-            </div>
+            <LocationCard
+              name={location.name}
+              url={location.url}
+              key={location.name}
+            />
           ))
         }
       </CardColumns>

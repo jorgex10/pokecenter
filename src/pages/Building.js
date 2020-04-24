@@ -1,6 +1,7 @@
 import React from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
 import '../assets/styles/App.scss';
+import { Link } from 'react-router-dom';
 
 const Building = () => (
   <Jumbotron className="container mt-10">
@@ -10,7 +11,9 @@ const Building = () => (
       Please visit another pages.
     </p>
     <p>
-      <Button variant="primary">Go to Home</Button>
+      <Link to="/">
+        <Button variant="primary">Go to Home</Button>
+      </Link>
     </p>
   </Jumbotron>
 );
