@@ -15,9 +15,9 @@ const CustomNav = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
-        <Link to="/" className="nav-link">Locations</Link>
-        <Link to="/pokemons" className="nav-link">Pokemons</Link>
-        <Link to="/pokemons" className="nav-link">Evolutions</Link>
+        <Link to="/types" className="nav-link">Types</Link>
+        <Link to="/building" className="nav-link">Pokemons</Link>
+        <Link to="/building" className="nav-link">Evolutions</Link>
       </Nav>
       <Nav>
         <NavDropdown title="Jorge Calvo" id="collasible-nav-dropdown">
