@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import typesReducer from './reducers/typesReducer';
+import pokemonTypesReducer from './reducers/pokemonTypesReducer';
 
 export default combineReducers({
-  types: typesReducer,
+  pokemonTypes: pokemonTypesReducer,
 });

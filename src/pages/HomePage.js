@@ -11,7 +11,7 @@ const HomePage = () => (
       extra attention to featured content or information related about Pokemons.
     </p>
     <p>
-      <Link to="/types">
+      <Link to="/pokemon-types">
         <Button variant="primary">Go to see all types of pokemos</Button>
       </Link>
     </p>
